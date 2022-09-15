@@ -1,0 +1,368 @@
+{
+  "uid" : "2f2e97ccda4b5586",
+  "name" : "TC-01 - Registration on the website Redmine.com",
+  "fullName" : "TC-01 - Registration on the website Redmine.com",
+  "historyId" : " redmine.spec.js TC-01 - Registration on the website Redmine.com",
+  "time" : {
+    "start" : 1663263019808,
+    "stop" : 1663263025907,
+    "duration" : 6099
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1663263019809,
+        "stop" : 1663263020048,
+        "duration" : 239
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1663263019998,
+          "stop" : 1663263020047,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://www.redmine.org/)",
+      "time" : {
+        "start" : 1663263020054,
+        "stop" : 1663263022388,
+        "duration" : 2334
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(.register)",
+      "time" : {
+        "start" : 1663263022389,
+        "stop" : 1663263022761,
+        "duration" : 372
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_login, Y5Kx7MLRwg)",
+      "time" : {
+        "start" : 1663263022764,
+        "stop" : 1663263022843,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_password, password-invalide)",
+      "time" : {
+        "start" : 1663263022845,
+        "stop" : 1663263022875,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_password_confirmation, password-invalide)",
+      "time" : {
+        "start" : 1663263022876,
+        "stop" : 1663263022907,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_firstname, C7oKwSlAjX)",
+      "time" : {
+        "start" : 1663263022909,
+        "stop" : 1663263022939,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_lastname, URlHbpSFts)",
+      "time" : {
+        "start" : 1663263022939,
+        "stop" : 1663263022964,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_mail, afd35ffdb3@f3bafe1g.com)",
+      "time" : {
+        "start" : 1663263022965,
+        "stop" : 1663263023002,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_custom_field_values_3, y7BMYTC811)",
+      "time" : {
+        "start" : 1663263023003,
+        "stop" : 1663263023024,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.selectOption(#user_language)",
+      "time" : {
+        "start" : 1663263023025,
+        "stop" : 1663263023039,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click([type=\"submit\"])",
+      "time" : {
+        "start" : 1663263023040,
+        "stop" : 1663263025812,
+        "duration" : 2772
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toContainText",
+      "time" : {
+        "start" : 1663263025814,
+        "stop" : 1663263025890,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1663263025890,
+        "stop" : 1663263025905,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1663263025893,
+          "stop" : 1663263025904,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "host",
+    "value" : "fv-az355-991"
+  }, {
+    "name" : "thread",
+    "value" : "fv-az355-991-4866-playwright-worker-0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "2363ac7e6372c745",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/33//#testresult/2363ac7e6372c745",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663262529053,
+          "stop" : 1663262535846,
+          "duration" : 6793
+        }
+      }, {
+        "uid" : "e7b56e7c7f3384f7",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/32//#testresult/e7b56e7c7f3384f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663261895972,
+          "stop" : 1663261904569,
+          "duration" : 8597
+        }
+      }, {
+        "uid" : "1748c3367676085c",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/29//#testresult/1748c3367676085c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663260385873,
+          "stop" : 1663260392178,
+          "duration" : 6305
+        }
+      }, {
+        "uid" : "b41b63c53cce3903",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/28//#testresult/b41b63c53cce3903",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663260330789,
+          "stop" : 1663260338634,
+          "duration" : 7845
+        }
+      }, {
+        "uid" : "36354389a139336b",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/27//#testresult/36354389a139336b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259786348,
+          "stop" : 1663259793368,
+          "duration" : 7020
+        }
+      }, {
+        "uid" : "b69ae21126f6f0a3",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/26//#testresult/b69ae21126f6f0a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259487017,
+          "stop" : 1663259493683,
+          "duration" : 6666
+        }
+      }, {
+        "uid" : "c8014447a03295ff",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/25//#testresult/c8014447a03295ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259215240,
+          "stop" : 1663259221938,
+          "duration" : 6698
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2f2e97ccda4b5586.json",
+  "parameterValues" : [ ]
+}

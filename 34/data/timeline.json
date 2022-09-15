@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az355-991",
+    "children" : [ {
+      "name" : "fv-az355-991-4866-playwright-worker-0",
+      "children" : [ {
+        "name" : "TC-02 - Authorization on the website Redmine.com",
+        "uid" : "20911f7883690c1b",
+        "parentUid" : "f64a200d8c491208cdbc1decc17de239",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663263025909,
+          "stop" : 1663263031487,
+          "duration" : 5578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-05 - Checking the forum",
+        "uid" : "b7037b663bfacb16",
+        "parentUid" : "f64a200d8c491208cdbc1decc17de239",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663263039137,
+          "stop" : 1663263042015,
+          "duration" : 2878
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-03 - Password recovery",
+        "uid" : "fe75b1706dcddbee",
+        "parentUid" : "f64a200d8c491208cdbc1decc17de239",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663263031488,
+          "stop" : 1663263036346,
+          "duration" : 4858
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-01 - Registration on the website Redmine.com",
+        "uid" : "2f2e97ccda4b5586",
+        "parentUid" : "f64a200d8c491208cdbc1decc17de239",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663263019808,
+          "stop" : 1663263025907,
+          "duration" : 6099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-04 - Testing the search",
+        "uid" : "a50f5a9341cc22bc",
+        "parentUid" : "f64a200d8c491208cdbc1decc17de239",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663263036347,
+          "stop" : 1663263039136,
+          "duration" : 2789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f64a200d8c491208cdbc1decc17de239"
+    } ],
+    "uid" : "476cf5dc7720bd4b6d5119bfa69a7d95"
+  } ],
+  "name" : "timeline"
+}
