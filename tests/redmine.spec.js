@@ -2,6 +2,7 @@ const { test, expect } = require('@playwright/test')
 const { MainPage } = require('../pageobjects/main.page')
 const { RegisterPage } = require('../pageobjects/register.page')
 const { AuthorizatPage } = require('../pageobjects/author.page')
+test.describe.configure({ mode: 'parallel' })
 
 test('TC-01 - Registration on the website Redmine.com', async ({page}) => {
   const mainPage = new MainPage(page)
@@ -40,7 +41,7 @@ test('TC-03 - Password recovery', async ({page}) => {
   await authorizatPage.lossPassExpectMessage() //Result - The message must contain "Невідомий"
 })
 
-test('TC-04 - Testing the search', async ({page}) => {
+test.only('TC-04 - Testing the search', async ({page}) => {
   const mainPage = new MainPage(page)
 
   await mainPage.goto() //1. Open site https://www.redmine.org/
