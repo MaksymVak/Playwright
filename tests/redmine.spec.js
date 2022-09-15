@@ -29,7 +29,7 @@ test('TC-02 - Authorization on the website Redmine.com', async ({page}) => {
 
 })
 
-test('TC-03 - Password recovery', async ({page}) => {
+test.skip('TC-03 - Password recovery', async ({page}) => {
   const mainPage = new MainPage(page)
   const authorizatPage = new AuthorizatPage(page)
 
