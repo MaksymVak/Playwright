@@ -1,0 +1,152 @@
+{
+  "uid" : "d6f0834dba1f5d37",
+  "name" : "TC-04 - Testing the search",
+  "fullName" : "TC-04 - Testing the search",
+  "historyId" : " redmine.spec.js TC-04 - Testing the search",
+  "time" : {
+    "start" : 1663262544241,
+    "stop" : 1663262544242,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1663262544241,
+        "stop" : 1663262544242,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-583"
+  }, {
+    "name" : "thread",
+    "value" : "fv-az77-583-4885-playwright-worker-0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "b9a06476c6a173f7",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/32//#testresult/b9a06476c6a173f7",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1663261916528,
+          "stop" : 1663261916531,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "2730561651c8102f",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/31//#testresult/2730561651c8102f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663261388421,
+          "stop" : 1663261392106,
+          "duration" : 3685
+        }
+      }, {
+        "uid" : "ec6c31c1b876d135",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/30//#testresult/ec6c31c1b876d135",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663260936199,
+          "stop" : 1663260939474,
+          "duration" : 3275
+        }
+      }, {
+        "uid" : "ee43893902faa55d",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/29//#testresult/ee43893902faa55d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663260401986,
+          "stop" : 1663260405476,
+          "duration" : 3490
+        }
+      }, {
+        "uid" : "fbf95ca8cb360cf1",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/28//#testresult/fbf95ca8cb360cf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663260350845,
+          "stop" : 1663260354438,
+          "duration" : 3593
+        }
+      }, {
+        "uid" : "84058cc746462c5c",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/27//#testresult/84058cc746462c5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259806545,
+          "stop" : 1663259810488,
+          "duration" : 3943
+        }
+      }, {
+        "uid" : "72556af4c97709b0",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/26//#testresult/72556af4c97709b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259505528,
+          "stop" : 1663259507881,
+          "duration" : 2353
+        }
+      }, {
+        "uid" : "a883b9f98442fefb",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/25//#testresult/a883b9f98442fefb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259233548,
+          "stop" : 1663259236737,
+          "duration" : 3189
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d6f0834dba1f5d37.json",
+  "parameterValues" : [ ]
+}

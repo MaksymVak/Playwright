@@ -1,0 +1,70 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "TC-01 - Registration on the website Redmine.com",
+    "uid" : "2363ac7e6372c745",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663262529053,
+      "stop" : 1663262535846,
+      "duration" : 6793
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-02 - Authorization on the website Redmine.com",
+    "uid" : "2e94bcfd44a9d71d",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663262535848,
+      "stop" : 1663262544235,
+      "duration" : 8387
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-03 - Password recovery",
+    "uid" : "e53b67e687d1db0a",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1663262544237,
+      "stop" : 1663262544239,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-04 - Testing the search",
+    "uid" : "d6f0834dba1f5d37",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1663262544241,
+      "stop" : 1663262544242,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-05 - Checking the forum",
+    "uid" : "a42c6578312e960",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663262544243,
+      "stop" : 1663262548577,
+      "duration" : 4334
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "suites"
+}
