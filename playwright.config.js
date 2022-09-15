@@ -9,15 +9,15 @@ const config = {
   },
   /* Run tests in files in parallel */
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: /* 'html',  */[['allure-playwright', {
+  reporter: 'html',/* [['allure-playwright', {
     detail: true,
     outputFolder: 'allure-results',
     suiteTitle: false
-  }]],
+  }]], */
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     browserName: 'chromium',
-    headless: false,
+/*     headless: true, */
     locale: 'uk-UK'
   },
 };
