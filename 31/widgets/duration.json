@@ -1,0 +1,11 @@
+[ {
+  "uid" : "2730561651c8102f",
+  "name" : "TC-04 - Testing the search",
+  "time" : {
+    "start" : 1663261388421,
+    "stop" : 1663261392106,
+    "duration" : 3685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

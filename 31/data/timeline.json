@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az201-262",
+    "children" : [ {
+      "name" : "fv-az201-262-4877-playwright-worker-0",
+      "children" : [ {
+        "name" : "TC-04 - Testing the search",
+        "uid" : "2730561651c8102f",
+        "parentUid" : "bfba6bf8380fedcc1f88e26706a2f1f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663261388421,
+          "stop" : 1663261392106,
+          "duration" : 3685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bfba6bf8380fedcc1f88e26706a2f1f8"
+    } ],
+    "uid" : "082873bf69160ef0259c8d6676f6941a"
+  } ],
+  "name" : "timeline"
+}
