@@ -41,7 +41,7 @@ test('TC-03 - Password recovery', async ({page}) => {
   await authorizatPage.lossPassExpectMessage() //Result - The message must contain "Невідомий"
 })
 
-test.only('TC-04 - Testing the search', async ({page}) => {
+test.skip('TC-04 - Testing the search', async ({page}) => {
   const mainPage = new MainPage(page)
 
   await mainPage.goto() //1. Open site https://www.redmine.org/
