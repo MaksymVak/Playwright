@@ -29,7 +29,7 @@ test('TC-02 - Authorization on the website Redmine.com', async ({page}) => {
 
 })
 
-test.skip('TC-03 - Password recovery', async ({page}) => {
+test('TC-03 - Password recovery', async ({page}) => {
   const mainPage = new MainPage(page)
   const authorizatPage = new AuthorizatPage(page)
 
@@ -41,7 +41,7 @@ test.skip('TC-03 - Password recovery', async ({page}) => {
   await authorizatPage.lossPassExpectMessage() //Result - The message must contain "Невідомий"
 })
 
-test.skip('TC-04 - Testing the search', async ({page}) => {
+test('TC-04 - Testing the search', async ({page}) => {
   const mainPage = new MainPage(page)
 
   await mainPage.goto() //1. Open site https://www.redmine.org/
