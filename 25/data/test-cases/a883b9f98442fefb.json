@@ -1,0 +1,300 @@
+{
+  "uid" : "a883b9f98442fefb",
+  "name" : "TC-04 - Testing the search",
+  "fullName" : "TC-04 - Testing the search",
+  "historyId" : " redmine.spec.js TC-04 - Testing the search",
+  "time" : {
+    "start" : 1663259233548,
+    "stop" : 1663259236737,
+    "duration" : 3189
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1663259233548,
+        "stop" : 1663259233593,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1663259233560,
+          "stop" : 1663259233593,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://www.redmine.org/)",
+      "time" : {
+        "start" : 1663259233594,
+        "stop" : 1663259235505,
+        "duration" : 1911
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#q, Redmine)",
+      "time" : {
+        "start" : 1663259235507,
+        "stop" : 1663259235660,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "keyboard.press(Enter)",
+      "time" : {
+        "start" : 1663259235661,
+        "stop" : 1663259235665,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.check(#news)",
+      "time" : {
+        "start" : 1663259235666,
+        "stop" : 1663259236250,
+        "duration" : 584
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click([type=\"submit\"])",
+      "time" : {
+        "start" : 1663259236251,
+        "stop" : 1663259236669,
+        "duration" : 418
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toContainText",
+      "time" : {
+        "start" : 1663259236670,
+        "stop" : 1663259236729,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1663259236729,
+        "stop" : 1663259236736,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1663259236730,
+          "stop" : 1663259236736,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "host",
+    "value" : "fv-az210-608"
+  }, {
+    "name" : "thread",
+    "value" : "fv-az210-608-4810-playwright-worker-0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8b8f077faf7f1b10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663254876139,
+        "stop" : 1663254878885,
+        "duration" : 2746
+      }
+    }, {
+      "uid" : "e60b58f6c3725b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663254828799,
+        "stop" : 1663254831465,
+        "duration" : 2666
+      }
+    }, {
+      "uid" : "b2ba7c1892e62c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663253944366,
+        "stop" : 1663253947423,
+        "duration" : 3057
+      }
+    }, {
+      "uid" : "454017d4307db58c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663253581690,
+        "stop" : 1663253584278,
+        "duration" : 2588
+      }
+    }, {
+      "uid" : "2839d6d7ac4f6de2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663253511559,
+        "stop" : 1663253514431,
+        "duration" : 2872
+      }
+    }, {
+      "uid" : "3c212cb989950a38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663253461689,
+        "stop" : 1663253464648,
+        "duration" : 2959
+      }
+    }, {
+      "uid" : "c3028805e4fab06e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663253179148,
+        "stop" : 1663253183943,
+        "duration" : 4795
+      }
+    }, {
+      "uid" : "35c5c1a29f288463",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663252936868,
+        "stop" : 1663252941174,
+        "duration" : 4306
+      }
+    }, {
+      "uid" : "8e03fa596142bcba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663248602806,
+        "stop" : 1663248606169,
+        "duration" : 3363
+      }
+    }, {
+      "uid" : "33aefb5bafdb0586",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663248440459,
+        "stop" : 1663248443473,
+        "duration" : 3014
+      }
+    }, {
+      "uid" : "3269c86911c8f0c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663248307076,
+        "stop" : 1663248313591,
+        "duration" : 6515
+      }
+    }, {
+      "uid" : "abf981f97782734f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663248189700,
+        "stop" : 1663248193012,
+        "duration" : 3312
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a883b9f98442fefb.json",
+  "parameterValues" : [ ]
+}

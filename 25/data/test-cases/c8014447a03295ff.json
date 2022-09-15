@@ -1,0 +1,390 @@
+{
+  "uid" : "c8014447a03295ff",
+  "name" : "TC-01 - Registration on the website Redmine.com",
+  "fullName" : "TC-01 - Registration on the website Redmine.com",
+  "historyId" : " redmine.spec.js TC-01 - Registration on the website Redmine.com",
+  "time" : {
+    "start" : 1663259215240,
+    "stop" : 1663259221938,
+    "duration" : 6698
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1663259215241,
+        "stop" : 1663259215481,
+        "duration" : 240
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1663259215431,
+          "stop" : 1663259215481,
+          "duration" : 50
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://www.redmine.org/)",
+      "time" : {
+        "start" : 1663259215488,
+        "stop" : 1663259217721,
+        "duration" : 2233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(.register)",
+      "time" : {
+        "start" : 1663259217722,
+        "stop" : 1663259218101,
+        "duration" : 379
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_login, MJvOfqCGv7)",
+      "time" : {
+        "start" : 1663259218105,
+        "stop" : 1663259218195,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_password, password-invalide)",
+      "time" : {
+        "start" : 1663259218196,
+        "stop" : 1663259218227,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_password_confirmation, password-invalide)",
+      "time" : {
+        "start" : 1663259218227,
+        "stop" : 1663259218258,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_firstname, HKml0TX7ba)",
+      "time" : {
+        "start" : 1663259218258,
+        "stop" : 1663259218284,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_lastname, VaoI37bWAZ)",
+      "time" : {
+        "start" : 1663259218285,
+        "stop" : 1663259218316,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_mail, d2ccde315e@eeb2b2cf.com)",
+      "time" : {
+        "start" : 1663259218317,
+        "stop" : 1663259218354,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#user_custom_field_values_3, gFMZNYG3tX)",
+      "time" : {
+        "start" : 1663259218355,
+        "stop" : 1663259218379,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.selectOption(#user_language)",
+      "time" : {
+        "start" : 1663259218380,
+        "stop" : 1663259218394,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click([type=\"submit\"])",
+      "time" : {
+        "start" : 1663259218395,
+        "stop" : 1663259221834,
+        "duration" : 3439
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toContainText",
+      "time" : {
+        "start" : 1663259221837,
+        "stop" : 1663259221919,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1663259221919,
+        "stop" : 1663259221936,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1663259221922,
+          "stop" : 1663259221932,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "host",
+    "value" : "fv-az210-608"
+  }, {
+    "name" : "thread",
+    "value" : "fv-az210-608-4810-playwright-worker-0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f02522b0bb4b064b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663254858693,
+        "stop" : 1663254865201,
+        "duration" : 6508
+      }
+    }, {
+      "uid" : "7eb331436599ee7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663254812728,
+        "stop" : 1663254818843,
+        "duration" : 6115
+      }
+    }, {
+      "uid" : "bc596040fa97f377",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663253927315,
+        "stop" : 1663253934273,
+        "duration" : 6958
+      }
+    }, {
+      "uid" : "c7a43e3539d206c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663253564044,
+        "stop" : 1663253571807,
+        "duration" : 7763
+      }
+    }, {
+      "uid" : "7b3399bfcd0fca3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663253495237,
+        "stop" : 1663253501677,
+        "duration" : 6440
+      }
+    }, {
+      "uid" : "b08016e1e0657f9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663253444212,
+        "stop" : 1663253451163,
+        "duration" : 6951
+      }
+    }, {
+      "uid" : "45f12584ddccaf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663253156450,
+        "stop" : 1663253165878,
+        "duration" : 9428
+      }
+    }, {
+      "uid" : "6e4c78f0b5c930a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663252916139,
+        "stop" : 1663252924407,
+        "duration" : 8268
+      }
+    }, {
+      "uid" : "75cc64e3ffc1d400",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663248583695,
+        "stop" : 1663248590661,
+        "duration" : 6966
+      }
+    }, {
+      "uid" : "60d461583b3bd4d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663248422118,
+        "stop" : 1663248429355,
+        "duration" : 7237
+      }
+    }, {
+      "uid" : "19dbd328be8ba636",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663248289900,
+        "stop" : 1663248296498,
+        "duration" : 6598
+      }
+    }, {
+      "uid" : "cb6076c2486bea63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663248169323,
+        "stop" : 1663248178245,
+        "duration" : 8922
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8014447a03295ff.json",
+  "parameterValues" : [ ]
+}

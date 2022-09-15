@@ -1,0 +1,910 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az210-608",
+    "children" : [ {
+      "name" : "fv-az210-608-4810-playwright-worker-0",
+      "children" : [ {
+        "name" : "TC-04 - Testing the search",
+        "uid" : "a883b9f98442fefb",
+        "parentUid" : "a51d9a6eeb9af1d0adbe7587951c8dff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259233548,
+          "stop" : 1663259236737,
+          "duration" : 3189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-05 - Checking the forum",
+        "uid" : "768f3e496a13d36f",
+        "parentUid" : "a51d9a6eeb9af1d0adbe7587951c8dff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259236738,
+          "stop" : 1663259241188,
+          "duration" : 4450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-03 - Password recovery",
+        "uid" : "61e30bbf446a0daf",
+        "parentUid" : "a51d9a6eeb9af1d0adbe7587951c8dff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259228717,
+          "stop" : 1663259233546,
+          "duration" : 4829
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-02 - Authorization on the website Redmine.com",
+        "uid" : "7efdb2bf08ead5f6",
+        "parentUid" : "a51d9a6eeb9af1d0adbe7587951c8dff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259221939,
+          "stop" : 1663259228716,
+          "duration" : 6777
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-01 - Registration on the website Redmine.com",
+        "uid" : "c8014447a03295ff",
+        "parentUid" : "a51d9a6eeb9af1d0adbe7587951c8dff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259215240,
+          "stop" : 1663259221938,
+          "duration" : 6698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a51d9a6eeb9af1d0adbe7587951c8dff"
+    } ],
+    "uid" : "bdf665f8bc9d588c0fd86ebf8fb83b3d"
+  }, {
+    "name" : "Makc",
+    "children" : [ {
+      "name" : "Makc-5420-playwright-worker-0",
+      "children" : [ {
+        "name" : "TC-05 - Checking the forum",
+        "uid" : "ed34a1d91c43ba8a",
+        "parentUid" : "500eafb15cb033c9d0a82aac956c36f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253584279,
+          "stop" : 1663253587949,
+          "duration" : 3670
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-04 - Testing the search",
+        "uid" : "454017d4307db58c",
+        "parentUid" : "500eafb15cb033c9d0a82aac956c36f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253581690,
+          "stop" : 1663253584278,
+          "duration" : 2588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-02 - Authorization on the website Redmine.com",
+        "uid" : "f2b0306ca73fd6ee",
+        "parentUid" : "500eafb15cb033c9d0a82aac956c36f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253571808,
+          "stop" : 1663253577234,
+          "duration" : 5426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-03 - Password recovery",
+        "uid" : "ad380c379699b3af",
+        "parentUid" : "500eafb15cb033c9d0a82aac956c36f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253577235,
+          "stop" : 1663253581689,
+          "duration" : 4454
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-01 - Registration on the website Redmine.com",
+        "uid" : "c7a43e3539d206c5",
+        "parentUid" : "500eafb15cb033c9d0a82aac956c36f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253564044,
+          "stop" : 1663253571807,
+          "duration" : 7763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "500eafb15cb033c9d0a82aac956c36f6"
+    }, {
+      "name" : "Makc-9444-playwright-worker-0",
+      "children" : [ {
+        "name" : "TC-03 - Password recovery",
+        "uid" : "faae3ebb96d3a26",
+        "parentUid" : "ebb34fb455946694f1ced57083e57d20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248184686,
+          "stop" : 1663248189699,
+          "duration" : 5013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-02 - Authorization on the website Redmine.com",
+        "uid" : "b30619c129b35951",
+        "parentUid" : "ebb34fb455946694f1ced57083e57d20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248178246,
+          "stop" : 1663248184685,
+          "duration" : 6439
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-01 - Registration on the website Redmine.com",
+        "uid" : "cb6076c2486bea63",
+        "parentUid" : "ebb34fb455946694f1ced57083e57d20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248169323,
+          "stop" : 1663248178245,
+          "duration" : 8922
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-05 - Checking the forum",
+        "uid" : "6fbb2cc4230726ba",
+        "parentUid" : "ebb34fb455946694f1ced57083e57d20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248193013,
+          "stop" : 1663248196534,
+          "duration" : 3521
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-04 - Testing the search",
+        "uid" : "abf981f97782734f",
+        "parentUid" : "ebb34fb455946694f1ced57083e57d20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248189700,
+          "stop" : 1663248193012,
+          "duration" : 3312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ebb34fb455946694f1ced57083e57d20"
+    }, {
+      "name" : "Makc-696-playwright-worker-0",
+      "children" : [ {
+        "name" : "TC-04 - Testing the search",
+        "uid" : "33aefb5bafdb0586",
+        "parentUid" : "0b616a45262af1da079ae8270d6c405e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248440459,
+          "stop" : 1663248443473,
+          "duration" : 3014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-01 - Registration on the website Redmine.com",
+        "uid" : "60d461583b3bd4d9",
+        "parentUid" : "0b616a45262af1da079ae8270d6c405e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248422118,
+          "stop" : 1663248429355,
+          "duration" : 7237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-05 - Checking the forum",
+        "uid" : "bf361999b5488f6",
+        "parentUid" : "0b616a45262af1da079ae8270d6c405e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248443475,
+          "stop" : 1663248448906,
+          "duration" : 5431
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-03 - Password recovery",
+        "uid" : "ede8bced964d842",
+        "parentUid" : "0b616a45262af1da079ae8270d6c405e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248434864,
+          "stop" : 1663248440457,
+          "duration" : 5593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-02 - Authorization on the website Redmine.com",
+        "uid" : "5224e54f498446f0",
+        "parentUid" : "0b616a45262af1da079ae8270d6c405e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248429363,
+          "stop" : 1663248434854,
+          "duration" : 5491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b616a45262af1da079ae8270d6c405e"
+    }, {
+      "name" : "Makc-4792-playwright-worker-0",
+      "children" : [ {
+        "name" : "TC-02 - Authorization on the website Redmine.com",
+        "uid" : "d00107f85b53adf9",
+        "parentUid" : "b541dfbbc2559a6b53fa72995b62ca99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663254865202,
+          "stop" : 1663254870421,
+          "duration" : 5219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-01 - Registration on the website Redmine.com",
+        "uid" : "f02522b0bb4b064b",
+        "parentUid" : "b541dfbbc2559a6b53fa72995b62ca99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663254858693,
+          "stop" : 1663254865201,
+          "duration" : 6508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-05 - Checking the forum",
+        "uid" : "136711bc56ff09b4",
+        "parentUid" : "b541dfbbc2559a6b53fa72995b62ca99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663254878886,
+          "stop" : 1663254882085,
+          "duration" : 3199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-04 - Testing the search",
+        "uid" : "8b8f077faf7f1b10",
+        "parentUid" : "b541dfbbc2559a6b53fa72995b62ca99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663254876139,
+          "stop" : 1663254878885,
+          "duration" : 2746
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-03 - Password recovery",
+        "uid" : "6c77dd18537a9fb6",
+        "parentUid" : "b541dfbbc2559a6b53fa72995b62ca99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663254870422,
+          "stop" : 1663254876138,
+          "duration" : 5716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b541dfbbc2559a6b53fa72995b62ca99"
+    }, {
+      "name" : "Makc-1624-playwright-worker-0",
+      "children" : [ {
+        "name" : "TC-01 - Registration on the website Redmine.com",
+        "uid" : "6e4c78f0b5c930a6",
+        "parentUid" : "7cf20fdbf78c340cc55d62b8f18721bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663252916139,
+          "stop" : 1663252924407,
+          "duration" : 8268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-03 - Password recovery",
+        "uid" : "b12f873e141d68e",
+        "parentUid" : "7cf20fdbf78c340cc55d62b8f18721bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663252930599,
+          "stop" : 1663252936868,
+          "duration" : 6269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-02 - Authorization on the website Redmine.com",
+        "uid" : "5f2523a93fec9c34",
+        "parentUid" : "7cf20fdbf78c340cc55d62b8f18721bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663252924409,
+          "stop" : 1663252930598,
+          "duration" : 6189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-05 - Checking the forum",
+        "uid" : "c98dc731435e8051",
+        "parentUid" : "7cf20fdbf78c340cc55d62b8f18721bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663252941175,
+          "stop" : 1663252945590,
+          "duration" : 4415
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-04 - Testing the search",
+        "uid" : "35c5c1a29f288463",
+        "parentUid" : "7cf20fdbf78c340cc55d62b8f18721bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663252936868,
+          "stop" : 1663252941174,
+          "duration" : 4306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7cf20fdbf78c340cc55d62b8f18721bb"
+    }, {
+      "name" : "Makc-7588-playwright-worker-0",
+      "children" : [ {
+        "name" : "TC-05 - Checking the forum",
+        "uid" : "edc73091207a535a",
+        "parentUid" : "69076d7331402e10f58ca612cc47180f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253947424,
+          "stop" : 1663253951182,
+          "duration" : 3758
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-04 - Testing the search",
+        "uid" : "b2ba7c1892e62c5",
+        "parentUid" : "69076d7331402e10f58ca612cc47180f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253944366,
+          "stop" : 1663253947423,
+          "duration" : 3057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-01 - Registration on the website Redmine.com",
+        "uid" : "bc596040fa97f377",
+        "parentUid" : "69076d7331402e10f58ca612cc47180f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253927315,
+          "stop" : 1663253934273,
+          "duration" : 6958
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-03 - Password recovery",
+        "uid" : "895044ca48c4654c",
+        "parentUid" : "69076d7331402e10f58ca612cc47180f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253939484,
+          "stop" : 1663253944366,
+          "duration" : 4882
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-02 - Authorization on the website Redmine.com",
+        "uid" : "edd3d23e931f0d40",
+        "parentUid" : "69076d7331402e10f58ca612cc47180f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253934274,
+          "stop" : 1663253939483,
+          "duration" : 5209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "69076d7331402e10f58ca612cc47180f"
+    }, {
+      "name" : "Makc-8564-playwright-worker-0",
+      "children" : [ {
+        "name" : "TC-03 - Password recovery",
+        "uid" : "9fdb6a8332e7647c",
+        "parentUid" : "b49c9bbf2172354d0a76857969ebeaed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253173594,
+          "stop" : 1663253179147,
+          "duration" : 5553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-02 - Authorization on the website Redmine.com",
+        "uid" : "158fe41c83904f81",
+        "parentUid" : "b49c9bbf2172354d0a76857969ebeaed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253165880,
+          "stop" : 1663253173594,
+          "duration" : 7714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-05 - Checking the forum",
+        "uid" : "11b59cc042508283",
+        "parentUid" : "b49c9bbf2172354d0a76857969ebeaed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253183945,
+          "stop" : 1663253187885,
+          "duration" : 3940
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-01 - Registration on the website Redmine.com",
+        "uid" : "45f12584ddccaf4",
+        "parentUid" : "b49c9bbf2172354d0a76857969ebeaed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253156450,
+          "stop" : 1663253165878,
+          "duration" : 9428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-04 - Testing the search",
+        "uid" : "c3028805e4fab06e",
+        "parentUid" : "b49c9bbf2172354d0a76857969ebeaed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253179148,
+          "stop" : 1663253183943,
+          "duration" : 4795
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b49c9bbf2172354d0a76857969ebeaed"
+    }, {
+      "name" : "Makc-3260-playwright-worker-0",
+      "children" : [ {
+        "name" : "TC-01 - Registration on the website Redmine.com",
+        "uid" : "b08016e1e0657f9d",
+        "parentUid" : "934d55567e6e70c30cf800d232041525",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253444212,
+          "stop" : 1663253451163,
+          "duration" : 6951
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-04 - Testing the search",
+        "uid" : "3c212cb989950a38",
+        "parentUid" : "934d55567e6e70c30cf800d232041525",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253461689,
+          "stop" : 1663253464648,
+          "duration" : 2959
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-03 - Password recovery",
+        "uid" : "a92947e77ba69718",
+        "parentUid" : "934d55567e6e70c30cf800d232041525",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253456441,
+          "stop" : 1663253461688,
+          "duration" : 5247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-02 - Authorization on the website Redmine.com",
+        "uid" : "2db84f22878ff86e",
+        "parentUid" : "934d55567e6e70c30cf800d232041525",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253451165,
+          "stop" : 1663253456440,
+          "duration" : 5275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-05 - Checking the forum",
+        "uid" : "cdc48edb5a2644f9",
+        "parentUid" : "934d55567e6e70c30cf800d232041525",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253464649,
+          "stop" : 1663253467917,
+          "duration" : 3268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "934d55567e6e70c30cf800d232041525"
+    }, {
+      "name" : "Makc-12100-playwright-worker-0",
+      "children" : [ {
+        "name" : "TC-03 - Password recovery",
+        "uid" : "464b2c7c82f85311",
+        "parentUid" : "29981e40607c2b29ae266388228895bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248302283,
+          "stop" : 1663248307063,
+          "duration" : 4780
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-05 - Checking the forum",
+        "uid" : "a941b0d040d33de7",
+        "parentUid" : "29981e40607c2b29ae266388228895bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248313593,
+          "stop" : 1663248318128,
+          "duration" : 4535
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-04 - Testing the search",
+        "uid" : "3269c86911c8f0c9",
+        "parentUid" : "29981e40607c2b29ae266388228895bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248307076,
+          "stop" : 1663248313591,
+          "duration" : 6515
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-02 - Authorization on the website Redmine.com",
+        "uid" : "c51a52136eb4ac4c",
+        "parentUid" : "29981e40607c2b29ae266388228895bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248296502,
+          "stop" : 1663248302281,
+          "duration" : 5779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-01 - Registration on the website Redmine.com",
+        "uid" : "19dbd328be8ba636",
+        "parentUid" : "29981e40607c2b29ae266388228895bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248289900,
+          "stop" : 1663248296498,
+          "duration" : 6598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "29981e40607c2b29ae266388228895bf"
+    }, {
+      "name" : "Makc-5644-playwright-worker-0",
+      "children" : [ {
+        "name" : "TC-04 - Testing the search",
+        "uid" : "e60b58f6c3725b",
+        "parentUid" : "53a83d4d85d6c1f5c80a8299884fff29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663254828799,
+          "stop" : 1663254831465,
+          "duration" : 2666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-03 - Password recovery",
+        "uid" : "26299287ff01a48d",
+        "parentUid" : "53a83d4d85d6c1f5c80a8299884fff29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663254824110,
+          "stop" : 1663254828798,
+          "duration" : 4688
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-01 - Registration on the website Redmine.com",
+        "uid" : "7eb331436599ee7c",
+        "parentUid" : "53a83d4d85d6c1f5c80a8299884fff29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663254812728,
+          "stop" : 1663254818843,
+          "duration" : 6115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-02 - Authorization on the website Redmine.com",
+        "uid" : "582ff75a48d391f9",
+        "parentUid" : "53a83d4d85d6c1f5c80a8299884fff29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663254818844,
+          "stop" : 1663254824108,
+          "duration" : 5264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-05 - Checking the forum",
+        "uid" : "4f19da4c7d80f3cd",
+        "parentUid" : "53a83d4d85d6c1f5c80a8299884fff29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663254831466,
+          "stop" : 1663254834968,
+          "duration" : 3502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "53a83d4d85d6c1f5c80a8299884fff29"
+    }, {
+      "name" : "Makc-2772-playwright-worker-0",
+      "children" : [ {
+        "name" : "TC-02 - Authorization on the website Redmine.com",
+        "uid" : "8e40385c6a2027ab",
+        "parentUid" : "cf22b2271dfdf749c3225c0dd661052b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253501679,
+          "stop" : 1663253507078,
+          "duration" : 5399
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-04 - Testing the search",
+        "uid" : "2839d6d7ac4f6de2",
+        "parentUid" : "cf22b2271dfdf749c3225c0dd661052b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253511559,
+          "stop" : 1663253514431,
+          "duration" : 2872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-03 - Password recovery",
+        "uid" : "21f7539f2a50071c",
+        "parentUid" : "cf22b2271dfdf749c3225c0dd661052b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253507080,
+          "stop" : 1663253511558,
+          "duration" : 4478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-01 - Registration on the website Redmine.com",
+        "uid" : "7b3399bfcd0fca3e",
+        "parentUid" : "cf22b2271dfdf749c3225c0dd661052b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253495237,
+          "stop" : 1663253501677,
+          "duration" : 6440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-05 - Checking the forum",
+        "uid" : "f4ed8b029587f4c3",
+        "parentUid" : "cf22b2271dfdf749c3225c0dd661052b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663253514432,
+          "stop" : 1663253517811,
+          "duration" : 3379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cf22b2271dfdf749c3225c0dd661052b"
+    }, {
+      "name" : "Makc-4252-playwright-worker-0",
+      "children" : [ {
+        "name" : "TC-05 - Checking the forum",
+        "uid" : "6259a26e68493c0f",
+        "parentUid" : "ece017f23039de8ced83c80a00d3de59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248606171,
+          "stop" : 1663248609279,
+          "duration" : 3108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-01 - Registration on the website Redmine.com",
+        "uid" : "75cc64e3ffc1d400",
+        "parentUid" : "ece017f23039de8ced83c80a00d3de59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248583695,
+          "stop" : 1663248590661,
+          "duration" : 6966
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-04 - Testing the search",
+        "uid" : "8e03fa596142bcba",
+        "parentUid" : "ece017f23039de8ced83c80a00d3de59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248602806,
+          "stop" : 1663248606169,
+          "duration" : 3363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-03 - Password recovery",
+        "uid" : "fa84ef9897af2884",
+        "parentUid" : "ece017f23039de8ced83c80a00d3de59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248597544,
+          "stop" : 1663248602802,
+          "duration" : 5258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-02 - Authorization on the website Redmine.com",
+        "uid" : "43819f1cea4477",
+        "parentUid" : "ece017f23039de8ced83c80a00d3de59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663248590668,
+          "stop" : 1663248597537,
+          "duration" : 6869
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ece017f23039de8ced83c80a00d3de59"
+    } ],
+    "uid" : "52b01cbccb0f7348043cb44c474a59ba"
+  } ],
+  "name" : "timeline"
+}
