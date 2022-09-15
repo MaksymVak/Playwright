@@ -1,0 +1,227 @@
+{
+  "uid" : "f95b0999bb5fd31",
+  "name" : "TC-05 - Checking the forum",
+  "fullName" : "TC-05 - Checking the forum",
+  "historyId" : " redmine.spec.js TC-05 - Checking the forum",
+  "time" : {
+    "start" : 1663260354438,
+    "stop" : 1663260359650,
+    "duration" : 5212
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1663260354439,
+        "stop" : 1663260354482,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1663260354446,
+          "stop" : 1663260354482,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://www.redmine.org/)",
+      "time" : {
+        "start" : 1663260354483,
+        "stop" : 1663260357139,
+        "duration" : 2656
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click([href=\"/projects/redmine/boards\"])",
+      "time" : {
+        "start" : 1663260357140,
+        "stop" : 1663260357534,
+        "duration" : 394
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click([href=\"/projects/redmine/boards/1\"])",
+      "time" : {
+        "start" : 1663260357535,
+        "stop" : 1663260358983,
+        "duration" : 1448
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click([href=\"/boards/1/topics/4325\"])",
+      "time" : {
+        "start" : 1663260358983,
+        "stop" : 1663260359498,
+        "duration" : 515
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveTitle",
+      "time" : {
+        "start" : 1663260359499,
+        "stop" : 1663260359639,
+        "duration" : 140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1663260359639,
+        "stop" : 1663260359650,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1663260359639,
+          "stop" : 1663260359650,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "host",
+    "value" : "fv-az626-979"
+  }, {
+    "name" : "thread",
+    "value" : "fv-az626-979-4948-playwright-worker-0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "f790398f7e0f67b2",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/27//#testresult/f790398f7e0f67b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259810489,
+          "stop" : 1663259815060,
+          "duration" : 4571
+        }
+      }, {
+        "uid" : "3d8e0b8aa25d574c",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/26//#testresult/3d8e0b8aa25d574c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259507881,
+          "stop" : 1663259511761,
+          "duration" : 3880
+        }
+      }, {
+        "uid" : "768f3e496a13d36f",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/25//#testresult/768f3e496a13d36f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259236738,
+          "stop" : 1663259241188,
+          "duration" : 4450
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f95b0999bb5fd31.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Sep 15 16:45:50 GMT 2022","Thu Sep 15 16:45:54 GMT 2022","3593","","","","","","TC-04 - Testing the search",""
+"passed","Thu Sep 15 16:45:54 GMT 2022","Thu Sep 15 16:45:59 GMT 2022","5212","","","","","","TC-05 - Checking the forum",""
+"passed","Thu Sep 15 16:45:45 GMT 2022","Thu Sep 15 16:45:50 GMT 2022","5588","","","","","","TC-03 - Password recovery",""
+"passed","Thu Sep 15 16:45:30 GMT 2022","Thu Sep 15 16:45:38 GMT 2022","7845","","","","","","TC-01 - Registration on the website Redmine.com",""
+"passed","Thu Sep 15 16:45:38 GMT 2022","Thu Sep 15 16:45:45 GMT 2022","6619","","","","","","TC-02 - Authorization on the website Redmine.com",""
