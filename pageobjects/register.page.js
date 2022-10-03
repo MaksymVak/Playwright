@@ -1,36 +1,38 @@
-import randomData from './randomdata'
-const { expect } = require('@playwright/test')
+import { Page } from '@playwright/test'
+import { GeneralPage } from '../pageobjects/Page'
 
-exports.RegisterPage = class RegisterPage {
+//locator
 
-//locators
+      const registerButton = '.register'
+      const submitButton = '[type="submit"]'
+      const loginField = '#user_login'
+      const passField = '#user_password'
+      const passConfirmField = '#user_password_confirmation'
+      const fNameField = '#user_firstname'
+      const lNameField = '#user_lastname'
+      const mailField = '#user_mail'
+      const customField = '#user_custom_field_values_3'
+      const droodown = '#user_language'
+
+      export class RegisterPage extends GeneralPage{
+
     constructor(page) {
-      this.page = page;
-      this.registerButton = page.locator('.register')
-      this.registerMessage = page.locator('#flash_notice')
-      this.loginField = page.locator('#user_login')
-      this.passField = page.locator('#user_password')
-      this.passConfirmField = page.locator('#user_password_confirmation')
-      this.fNameField = page.locator('#user_firstname')
-      this.lNameField = page.locator('#user_lastname')
-      this.mailField = page.locator('#user_mail')
-      this.customField = page.locator('#user_custom_field_values_3')
-      this.droodown = page.locator('#user_language')
+        super(page)
     }
+    async userRegister() {
+        await super.clickElement(registerButton)
+      }
 
 //Filling out the fields of the registration form
-    async inputField() {
-        await this.loginField.type(randomData.randomstring(10))
-        await this.passField.type("password-invalide")
-        await this.passConfirmField.type("password-invalide")
-        await this.fNameField.type(randomData.randomstring(10))
-        await this.lNameField.type(randomData.randomstring(10))
-        await this.mailField.type(randomData.makeEmail())
-        await this.customField.type(randomData.randomstring(10))
-        await this.droodown.selectOption("uk")
-    }
-//expect message
-    async expectMessage() {
-        await expect(this.registerMessage).toContainText('Обліковий запис успішно створений.')
+    async inputField(login, pass, passConfirm, fName, lName, mail, customF, country) {
+        await super.fillField(loginField, login)
+        await super.fillField(passField, pass)
+        await super.fillField(passConfirmField, passConfirm)
+        await super.fillField(fNameField, fName)
+        await super.fillField(lNameField, lName)
+        await super.fillField(mailField, mail)
+        await super.fillField(customField, customF)
+        await super.dropDownOptions(droodown, country)
+        await super.clickElement(submitButton)
     }
   }
