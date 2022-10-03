@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://MaksymVak.github.io/Playwright",
+  "buildOrder" : 41,
+  "buildName" : "GitHub Actions Run #3175649840",
+  "buildUrl" : "https://github.com/MaksymVak/Playwright/actions/runs/3175649840",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://MaksymVak.github.io/Playwright/41/"
+} ]

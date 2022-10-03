@@ -1,0 +1,338 @@
+{
+  "uid" : "5efb3643b97c98b6",
+  "name" : "TC-03 - Password recovery",
+  "fullName" : "TC-03 - Password recovery",
+  "historyId" : " redmine.spec.js TC-03 - Password recovery",
+  "time" : {
+    "start" : 1664813308827,
+    "stop" : 1664813315431,
+    "duration" : 6604
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1664813308828,
+        "stop" : 1664813311439,
+        "duration" : 2611
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1664813308828,
+          "stop" : 1664813311439,
+          "duration" : 2611
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1664813308833,
+            "stop" : 1664813308866,
+            "duration" : 33
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto(https://www.redmine.org/)",
+          "time" : {
+            "start" : 1664813308866,
+            "stop" : 1664813311439,
+            "duration" : 2573
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.click(.login)",
+      "time" : {
+        "start" : 1664813311440,
+        "stop" : 1664813311793,
+        "duration" : 353
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click([href=\"/account/lost_password\"])",
+      "time" : {
+        "start" : 1664813311794,
+        "stop" : 1664813312088,
+        "duration" : 294
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(#mail, 5g3agg1c2c@d2g5df13.com)",
+      "time" : {
+        "start" : 1664813312093,
+        "stop" : 1664813312170,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click([type=\"submit\"])",
+      "time" : {
+        "start" : 1664813312171,
+        "stop" : 1664813315373,
+        "duration" : 3202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toContainText",
+      "time" : {
+        "start" : 1664813315375,
+        "stop" : 1664813315416,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1664813315416,
+        "stop" : 1664813315431,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1664813315418,
+          "stop" : 1664813315427,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "host",
+    "value" : "fv-az447-274"
+  }, {
+    "name" : "thread",
+    "value" : "fv-az447-274-4755-playwright-worker-0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "4c46410ba41cd744",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/40//#testresult/4c46410ba41cd744",
+        "status" : "passed",
+        "time" : {
+          "start" : 1664812705112,
+          "stop" : 1664812710345,
+          "duration" : 5233
+        }
+      }, {
+        "uid" : "8fd38084f904101",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/37//#testresult/8fd38084f904101",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663316883388,
+          "stop" : 1663316889764,
+          "duration" : 6376
+        }
+      }, {
+        "uid" : "c81a0e2ff7ea9bf9",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/35//#testresult/c81a0e2ff7ea9bf9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663264486261,
+          "stop" : 1663264491187,
+          "duration" : 4926
+        }
+      }, {
+        "uid" : "4edd4c9a6695d691",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/36//#testresult/4edd4c9a6695d691",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663264468222,
+          "stop" : 1663264472261,
+          "duration" : 4039
+        }
+      }, {
+        "uid" : "fe75b1706dcddbee",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/34//#testresult/fe75b1706dcddbee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663263031488,
+          "stop" : 1663263036346,
+          "duration" : 4858
+        }
+      }, {
+        "uid" : "e53b67e687d1db0a",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/33//#testresult/e53b67e687d1db0a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1663262544237,
+          "stop" : 1663262544239,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "cd3393b6a2f533ef",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/32//#testresult/cd3393b6a2f533ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663261911004,
+          "stop" : 1663261916526,
+          "duration" : 5522
+        }
+      }, {
+        "uid" : "298f592b9e50c227",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/29//#testresult/298f592b9e50c227",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663260397464,
+          "stop" : 1663260401985,
+          "duration" : 4521
+        }
+      }, {
+        "uid" : "8ce8a8b7781c0ff1",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/28//#testresult/8ce8a8b7781c0ff1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663260345255,
+          "stop" : 1663260350843,
+          "duration" : 5588
+        }
+      }, {
+        "uid" : "39952bc8ca52aa3b",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/27//#testresult/39952bc8ca52aa3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259800268,
+          "stop" : 1663259806545,
+          "duration" : 6277
+        }
+      }, {
+        "uid" : "f53ea3ae368f18f",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/26//#testresult/f53ea3ae368f18f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259500163,
+          "stop" : 1663259505528,
+          "duration" : 5365
+        }
+      }, {
+        "uid" : "61e30bbf446a0daf",
+        "reportUrl" : "https://MaksymVak.github.io/Playwright/25//#testresult/61e30bbf446a0daf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663259228717,
+          "stop" : 1663259233546,
+          "duration" : 4829
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5efb3643b97c98b6.json",
+  "parameterValues" : [ ]
+}
